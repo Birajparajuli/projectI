@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/projectI.dir/login.c.obj"
   "CMakeFiles/projectI.dir/main.c.obj"
   "CMakeFiles/projectI.dir/user.c.obj"
+  "CMakeFiles/projectI.dir/welcomescreen.c.obj"
   "libprojectI.dll.a"
   "projectI.exe"
   "projectI.exe.manifest"

@@ -14,8 +14,9 @@
 
 
 int main() {
+    return welcomescreen;
 
-    printf("Hello");
+
 
 
     return 0;

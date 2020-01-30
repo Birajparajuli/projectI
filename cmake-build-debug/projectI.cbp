@@ -86,6 +86,9 @@
 		<Unit filename="D:/Programming/C Programming/projectI/user.c">
 			<Option target="projectI"/>
 		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/welcomescreen.c">
+			<Option target="projectI"/>
+		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -230,6 +230,33 @@ user.c.s:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/user.c.s
 .PHONY : user.c.s
 
+welcomescreen.obj: welcomescreen.c.obj
+
+.PHONY : welcomescreen.obj
+
+# target to build an object file
+welcomescreen.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.obj
+.PHONY : welcomescreen.c.obj
+
+welcomescreen.i: welcomescreen.c.i
+
+.PHONY : welcomescreen.i
+
+# target to preprocess a source file
+welcomescreen.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.i
+.PHONY : welcomescreen.c.i
+
+welcomescreen.s: welcomescreen.c.s
+
+.PHONY : welcomescreen.s
+
+# target to generate assembly for a file
+welcomescreen.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.s
+.PHONY : welcomescreen.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +278,9 @@ help:
 	@echo ... user.obj
 	@echo ... user.i
 	@echo ... user.s
+	@echo ... welcomescreen.obj
+	@echo ... welcomescreen.i
+	@echo ... welcomescreen.s
 .PHONY : help
 
 
