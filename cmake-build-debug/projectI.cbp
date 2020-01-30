@@ -74,10 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Programming/C Programming/projectI/admin.c">
+			<Option target="projectI"/>
+		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/login.c">
 			<Option target="projectI"/>
 		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/main.c">
+			<Option target="projectI"/>
+		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/user.c">
 			<Option target="projectI"/>
 		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/CMakeLists.txt">

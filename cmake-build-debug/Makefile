@@ -122,6 +122,33 @@ projectI/fast:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/build
 .PHONY : projectI/fast
 
+admin.obj: admin.c.obj
+
+.PHONY : admin.obj
+
+# target to build an object file
+admin.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.obj
+.PHONY : admin.c.obj
+
+admin.i: admin.c.i
+
+.PHONY : admin.i
+
+# target to preprocess a source file
+admin.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.i
+.PHONY : admin.c.i
+
+admin.s: admin.c.s
+
+.PHONY : admin.s
+
+# target to generate assembly for a file
+admin.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.s
+.PHONY : admin.c.s
+
 login.obj: login.c.obj
 
 .PHONY : login.obj
@@ -176,6 +203,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/main.c.s
 .PHONY : main.c.s
 
+user.obj: user.c.obj
+
+.PHONY : user.obj
+
+# target to build an object file
+user.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/user.c.obj
+.PHONY : user.c.obj
+
+user.i: user.c.i
+
+.PHONY : user.i
+
+# target to preprocess a source file
+user.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/user.c.i
+.PHONY : user.c.i
+
+user.s: user.c.s
+
+.PHONY : user.s
+
+# target to generate assembly for a file
+user.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/user.c.s
+.PHONY : user.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +239,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... projectI
 	@echo ... edit_cache
+	@echo ... admin.obj
+	@echo ... admin.i
+	@echo ... admin.s
 	@echo ... login.obj
 	@echo ... login.i
 	@echo ... login.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... user.obj
+	@echo ... user.i
+	@echo ... user.s
 .PHONY : help
 
 

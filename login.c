@@ -4,7 +4,7 @@
 #include <conio.h>
 
 
-int main(){
+int LogIn(){
 
     char username[10];
     char password[10];
@@ -15,6 +15,8 @@ int main(){
 
     printf("Enter Your Password:");
     scanf("%s", &password);
+
+
 
 
 
