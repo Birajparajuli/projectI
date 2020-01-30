@@ -122,6 +122,33 @@ projectI/fast:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/build
 .PHONY : projectI/fast
 
+login.obj: login.c.obj
+
+.PHONY : login.obj
+
+# target to build an object file
+login.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/login.c.obj
+.PHONY : login.c.obj
+
+login.i: login.c.i
+
+.PHONY : login.i
+
+# target to preprocess a source file
+login.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/login.c.i
+.PHONY : login.c.i
+
+login.s: login.c.s
+
+.PHONY : login.s
+
+# target to generate assembly for a file
+login.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/login.c.s
+.PHONY : login.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... projectI
 	@echo ... edit_cache
+	@echo ... login.obj
+	@echo ... login.i
+	@echo ... login.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

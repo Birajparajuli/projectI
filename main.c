@@ -5,10 +5,16 @@
 
 /* HOTEL RESERVATION SYSTEM*/
 
-
 #include <stdio.h>
+#include <math.h>
+#include <conio.h>
+#include <time.h>
+
+/*Declare Global Variables Here*/
+
 
 int main() {
-    printf("Hello Boys");
+
+
     return 0;
 }
