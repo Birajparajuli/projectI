@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Programming/C Programming/projectI/newbooking.c">
+		<Unit filename="D:/Programming/C Programming/projectI/welcomescreen.c">
 			<Option target="projectI"/>
 		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/CMakeLists.txt">

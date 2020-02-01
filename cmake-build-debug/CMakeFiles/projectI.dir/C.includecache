@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/Programming/C Programming/projectI/newbooking.c
+D:/Programming/C Programming/projectI/welcomescreen.c
 stdio.h
 -
-conio.h
--
-ctype.h
--
-windows.h
--
-stdlib.h
+time.h
 -
 
