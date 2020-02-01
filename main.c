@@ -14,7 +14,7 @@
 
 
 int main() {
-    return welcomescreen;
+
 
 
 

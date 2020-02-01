@@ -5,17 +5,22 @@
       <config projectName="projectI" targetName="projectI" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcc69820-fce1-4a9c-8e91-a24ee5c53cce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/welcomescreen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/DependInfo.cmake" afterDir="false" />
@@ -28,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/projectI.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/projectI.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user.c" beforeDir="false" afterPath="$PROJECT_DIR$/newbooking.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +95,8 @@
       <workItem from="1579883603752" duration="481000" />
       <workItem from="1580014319554" duration="14000" />
       <workItem from="1580364150596" duration="4308000" />
+      <workItem from="1580487192822" duration="606000" />
+      <workItem from="1580537424887" duration="3726000" />
     </task>
     <task id="LOCAL-00001" summary="This is first commit by biraj">
       <created>1580364253652</created>
@@ -129,7 +137,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -160,34 +170,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="597" y="342" width="366" height="179" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1579798180845" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1580368489334">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1580541114859">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580368489334" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1580368489334">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580541114859" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1580541114858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580368489333" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1580368489333">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580541114858" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1580541114858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580368489333" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1580368489334">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580541114858" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1580541114858">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580368489334" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580541114858" />
     <state x="277" y="75" key="SettingsEditor" timestamp="1579798007598">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579798007598" />
-    <state x="444" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1580364152329">
+    <state x="444" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1580537441253">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="444" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1580364152329" />
-    <state x="456" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580367679013">
+    <state x="444" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1580537441253" />
+    <state x="456" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580539647197">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="456" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1580367679013" />
+    <state x="456" y="112" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1580539647197" />
     <state x="577" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580367096735">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
