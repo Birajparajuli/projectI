@@ -122,32 +122,32 @@ projectI/fast:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/build
 .PHONY : projectI/fast
 
-welcomescreen.obj: welcomescreen.c.obj
+newbooking.obj: newbooking.c.obj
 
-.PHONY : welcomescreen.obj
+.PHONY : newbooking.obj
 
 # target to build an object file
-welcomescreen.c.obj:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.obj
-.PHONY : welcomescreen.c.obj
+newbooking.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/newbooking.c.obj
+.PHONY : newbooking.c.obj
 
-welcomescreen.i: welcomescreen.c.i
+newbooking.i: newbooking.c.i
 
-.PHONY : welcomescreen.i
+.PHONY : newbooking.i
 
 # target to preprocess a source file
-welcomescreen.c.i:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.i
-.PHONY : welcomescreen.c.i
+newbooking.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/newbooking.c.i
+.PHONY : newbooking.c.i
 
-welcomescreen.s: welcomescreen.c.s
+newbooking.s: newbooking.c.s
 
-.PHONY : welcomescreen.s
+.PHONY : newbooking.s
 
 # target to generate assembly for a file
-welcomescreen.c.s:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.s
-.PHONY : welcomescreen.c.s
+newbooking.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/newbooking.c.s
+.PHONY : newbooking.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... projectI
 	@echo ... edit_cache
-	@echo ... welcomescreen.obj
-	@echo ... welcomescreen.i
-	@echo ... welcomescreen.s
+	@echo ... newbooking.obj
+	@echo ... newbooking.i
+	@echo ... newbooking.s
 .PHONY : help
 
 

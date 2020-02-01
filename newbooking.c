@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
-#include<ctype.h>
-#include<windows.h>
-#include<stdlib.h>
+#include <stdlib.h>
 
 
 
-    struct CustomerDetails   //STRUCTURE DECLARATION
+    struct CustomerDetails
     {
         char roomnumber[10];
         char name[20];
@@ -16,41 +14,52 @@
         char email[20];
         char period[10];
         char arrivaldate[10];
-    }s;
-    void main()
+    };
+    int main()
     {
-
-        //f = fopen("add.txt", "a+");
-        FILE *file = fopen("D:\\Programming\\C Programming\\ProjectI\\add.txt","w+");
+        struct CustomerDetails s;
+        FILE *file;
+        file = fopen("D:\\Programming\\C Programming\\projectI\\hotelData.txt", "a+");
         if (file== NULL){
             printf("Error saving Hotel data.");
             return 1;
         }
         while (1) {
-            //system("cls");
             printf("\n Enter Customer Details:");
-            printf("\n**************************");
             printf("\n Enter Room number:");
+
             scanf("%s", &s.roomnumber);
             printf("Enter Name:");
+
             scanf("%s", &s.name);
             printf("Enter Address:");
+
             scanf("%s", &s.address);
             printf("Enter Phone Number:");
+
             scanf("%s", &s.phonenumber);
             printf("Enter Nationality:");
+
             scanf("%s", &s.nationality);
             printf("Enter Email:");
+
             scanf(" %s", &s.email);
             printf("Enter Period(\'x\'days):");
+
             scanf("%s", &s.period);
             printf("Enter Arrival date(dd\\mm\\yyyy):");
+
             scanf("%s", &s.arrivaldate);
-            //fwrite(&s, sizeof(s), 1, f);
-            printf("\n\n1 Room is successfully booked!!");
-            printf("\n Press esc key to exit,  any other key to add another customer detail:");
-            fprintf("add.txt","%s\t%s\t%s\t%s\t%s\t%s\t%s", s.roomnumber, s.name, s.address, s.phonenumber,s.nationality, s.email, s.period);
-           // test = getche();
+            printf("\n\n1 Room is successfully booked!!\n");
+
+            fwrite(&s,sizeof(s),1,file);
+            //fprintf("add.txt","%s\t%s\t%s\t%s\t%s\t%s\t%s", s.roomnumber, s.name, s.address, s.phonenumber,s.nationality, s.email, s.period);
+            printf("Book another room?(Y/N):");
+            char ch=getch();
+            if(ch=='N'|| ch=='n')
+                break;
+
+
         }
         fclose(file);
     }

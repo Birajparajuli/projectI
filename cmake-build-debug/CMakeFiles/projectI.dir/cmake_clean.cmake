@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/projectI.dir/welcomescreen.c.obj"
+  "CMakeFiles/projectI.dir/newbooking.c.obj"
   "libprojectI.dll.a"
   "projectI.exe"
   "projectI.exe.manifest"
