@@ -74,7 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Programming/C Programming/projectI/admin.c">
+			<Option target="projectI"/>
+		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/login.c">
+			<Option target="projectI"/>
+		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/main.c">
+			<Option target="projectI"/>
+		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/newbooking.c">
+			<Option target="projectI"/>
+		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/welcomescreen.c">
 			<Option target="projectI"/>
 		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/CMakeLists.txt">

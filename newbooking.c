@@ -15,7 +15,7 @@
         char period[10];
         char arrivaldate[10];
     };
-    int main()
+    int booking()
     {
         struct CustomerDetails s;
         FILE *file;
@@ -58,7 +58,6 @@
             char ch=getch();
             if(ch=='N'|| ch=='n')
                 break;
-
 
         }
         fclose(file);

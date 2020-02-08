@@ -122,6 +122,87 @@ projectI/fast:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/build
 .PHONY : projectI/fast
 
+admin.obj: admin.c.obj
+
+.PHONY : admin.obj
+
+# target to build an object file
+admin.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.obj
+.PHONY : admin.c.obj
+
+admin.i: admin.c.i
+
+.PHONY : admin.i
+
+# target to preprocess a source file
+admin.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.i
+.PHONY : admin.c.i
+
+admin.s: admin.c.s
+
+.PHONY : admin.s
+
+# target to generate assembly for a file
+admin.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.s
+.PHONY : admin.c.s
+
+login.obj: login.c.obj
+
+.PHONY : login.obj
+
+# target to build an object file
+login.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/login.c.obj
+.PHONY : login.c.obj
+
+login.i: login.c.i
+
+.PHONY : login.i
+
+# target to preprocess a source file
+login.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/login.c.i
+.PHONY : login.c.i
+
+login.s: login.c.s
+
+.PHONY : login.s
+
+# target to generate assembly for a file
+login.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/login.c.s
+.PHONY : login.c.s
+
+main.obj: main.c.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/main.c.s
+.PHONY : main.c.s
+
 newbooking.obj: newbooking.c.obj
 
 .PHONY : newbooking.obj
@@ -149,6 +230,33 @@ newbooking.c.s:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/newbooking.c.s
 .PHONY : newbooking.c.s
 
+welcomescreen.obj: welcomescreen.c.obj
+
+.PHONY : welcomescreen.obj
+
+# target to build an object file
+welcomescreen.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.obj
+.PHONY : welcomescreen.c.obj
+
+welcomescreen.i: welcomescreen.c.i
+
+.PHONY : welcomescreen.i
+
+# target to preprocess a source file
+welcomescreen.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.i
+.PHONY : welcomescreen.c.i
+
+welcomescreen.s: welcomescreen.c.s
+
+.PHONY : welcomescreen.s
+
+# target to generate assembly for a file
+welcomescreen.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.s
+.PHONY : welcomescreen.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +266,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... projectI
 	@echo ... edit_cache
+	@echo ... admin.obj
+	@echo ... admin.i
+	@echo ... admin.s
+	@echo ... login.obj
+	@echo ... login.i
+	@echo ... login.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... newbooking.obj
 	@echo ... newbooking.i
 	@echo ... newbooking.s
+	@echo ... welcomescreen.obj
+	@echo ... welcomescreen.i
+	@echo ... welcomescreen.s
 .PHONY : help
 
 

@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/Programming/C Programming/projectI/admin.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/admin.c.obj"
+  "D:/Programming/C Programming/projectI/login.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/login.c.obj"
+  "D:/Programming/C Programming/projectI/main.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/main.c.obj"
   "D:/Programming/C Programming/projectI/newbooking.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/newbooking.c.obj"
+  "D:/Programming/C Programming/projectI/welcomescreen.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/welcomescreen.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

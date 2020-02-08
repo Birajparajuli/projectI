@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 
-
-int main(){
+char welcome(){
     time_t t;
     time(&t);
     printf("\t\t*************************************************\n");
@@ -23,6 +22,4 @@ int main(){
     printf("\n");
     printf("\t\t* Date & Time: %s* \n",ctime(&t));
 
-
-    return 0;
 }
