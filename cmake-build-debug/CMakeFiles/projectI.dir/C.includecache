@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+D:/Programming/C Programming/projectI/booking.c
+stdio.h
+-
+conio.h
+-
+booking.h
+D:/Programming/C Programming/projectI/booking.h
+
+D:/Programming/C Programming/projectI/booking.h
+
 D:/Programming/C Programming/projectI/main.c
 stdio.h
 -
@@ -15,20 +25,8 @@ conio.h
 -
 time.h
 -
-welcomescreen.c
-D:/Programming/C Programming/projectI/welcomescreen.c
-
-D:/Programming/C Programming/projectI/newbooking.c
-stdio.h
--
-conio.h
--
-stdlib.h
--
-
-D:/Programming/C Programming/projectI/welcomescreen.c
-stdio.h
--
-time.h
--
+booking.h
+D:/Programming/C Programming/projectI/booking.h
+booking.c
+D:/Programming/C Programming/projectI/booking.c
 

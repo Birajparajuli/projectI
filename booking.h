@@ -1,8 +1,7 @@
-#include <stdio.h>
-#include <conio.h>
-#include <stdlib.h>
+#ifndef PROJECTI_BOOKING_H
+#define PROJECTI_BOOKING_H
 
-
+/*-----------Customer Details Struct Variables Declaration------------------*/
 
     struct CustomerDetails
     {
@@ -16,4 +15,4 @@
         char arrivaldate[10];
     }s;
 
-
+#endif //PROJECTI_BOOKING_H

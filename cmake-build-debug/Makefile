@@ -122,32 +122,32 @@ projectI/fast:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/build
 .PHONY : projectI/fast
 
-admin.obj: admin.c.obj
+booking.obj: booking.c.obj
 
-.PHONY : admin.obj
+.PHONY : booking.obj
 
 # target to build an object file
-admin.c.obj:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.obj
-.PHONY : admin.c.obj
+booking.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/booking.c.obj
+.PHONY : booking.c.obj
 
-admin.i: admin.c.i
+booking.i: booking.c.i
 
-.PHONY : admin.i
+.PHONY : booking.i
 
 # target to preprocess a source file
-admin.c.i:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.i
-.PHONY : admin.c.i
+booking.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/booking.c.i
+.PHONY : booking.c.i
 
-admin.s: admin.c.s
+booking.s: booking.c.s
 
-.PHONY : admin.s
+.PHONY : booking.s
 
 # target to generate assembly for a file
-admin.c.s:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/admin.c.s
-.PHONY : admin.c.s
+booking.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/booking.c.s
+.PHONY : booking.c.s
 
 login.obj: login.c.obj
 
@@ -230,33 +230,6 @@ newbooking.c.s:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/newbooking.c.s
 .PHONY : newbooking.c.s
 
-welcomescreen.obj: welcomescreen.c.obj
-
-.PHONY : welcomescreen.obj
-
-# target to build an object file
-welcomescreen.c.obj:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.obj
-.PHONY : welcomescreen.c.obj
-
-welcomescreen.i: welcomescreen.c.i
-
-.PHONY : welcomescreen.i
-
-# target to preprocess a source file
-welcomescreen.c.i:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.i
-.PHONY : welcomescreen.c.i
-
-welcomescreen.s: welcomescreen.c.s
-
-.PHONY : welcomescreen.s
-
-# target to generate assembly for a file
-welcomescreen.c.s:
-	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/welcomescreen.c.s
-.PHONY : welcomescreen.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -266,9 +239,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... projectI
 	@echo ... edit_cache
-	@echo ... admin.obj
-	@echo ... admin.i
-	@echo ... admin.s
+	@echo ... booking.obj
+	@echo ... booking.i
+	@echo ... booking.s
 	@echo ... login.obj
 	@echo ... login.i
 	@echo ... login.s
@@ -278,9 +251,6 @@ help:
 	@echo ... newbooking.obj
 	@echo ... newbooking.i
 	@echo ... newbooking.s
-	@echo ... welcomescreen.obj
-	@echo ... welcomescreen.i
-	@echo ... welcomescreen.s
 .PHONY : help
 
 

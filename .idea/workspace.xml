@@ -12,15 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcc69820-fce1-4a9c-8e91-a24ee5c53cce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/booking.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/progress.make" afterDir="false" />
@@ -28,7 +29,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/projectI.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/projectI.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newbooking.c" beforeDir="false" afterPath="$PROJECT_DIR$/newbooking.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcomescreen.c" beforeDir="false" afterPath="$PROJECT_DIR$/welcomescreen.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcomescreen.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="projectI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projectI" TARGET_NAME="projectI" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projectI" RUN_TARGET_NAME="projectI">
@@ -96,7 +97,8 @@
       <workItem from="1580617798402" duration="1070000" />
       <workItem from="1580726071714" duration="641000" />
       <workItem from="1581171954388" duration="1017000" />
-      <workItem from="1581175772918" duration="330000" />
+      <workItem from="1581175772918" duration="538000" />
+      <workItem from="1581246114940" duration="4630000" />
     </task>
     <task id="LOCAL-00001" summary="This is first commit by biraj">
       <created>1580364253652</created>
@@ -158,10 +160,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1579798250296" />
-    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580365448213">
+    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581247368571">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1580365448213" />
+    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581247368571" />
     <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1580367109916">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -186,18 +188,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580620303692" />
-    <state x="277" y="75" key="SettingsEditor" timestamp="1579798007598">
+    <state x="277" y="75" key="SettingsEditor" timestamp="1581247051846">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579798007598" />
-    <state x="444" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1581175773279">
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581247051846" />
+    <state x="444" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1581246194874">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="444" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581175773279" />
-    <state x="456" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580576704455">
+    <state x="444" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581246194874" />
+    <state x="456" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581247357941">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="456" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1580576704455" />
+    <state x="456" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1581247357941" />
     <state x="577" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580367096735">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
