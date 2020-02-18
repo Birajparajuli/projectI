@@ -83,10 +83,10 @@
 		<Unit filename="D:/Programming/C Programming/projectI/login.c">
 			<Option target="projectI"/>
 		</Unit>
-		<Unit filename="D:/Programming/C Programming/projectI/main.c">
+		<Unit filename="D:/Programming/C Programming/projectI/login.h">
 			<Option target="projectI"/>
 		</Unit>
-		<Unit filename="D:/Programming/C Programming/projectI/newbooking.c">
+		<Unit filename="D:/Programming/C Programming/projectI/main.c">
 			<Option target="projectI"/>
 		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/CMakeLists.txt">

@@ -12,24 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcc69820-fce1-4a9c-8e91-a24ee5c53cce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/booking.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking.c" beforeDir="false" afterPath="$PROJECT_DIR$/booking.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking.h" beforeDir="false" afterPath="$PROJECT_DIR$/booking.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/projectI.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/projectI.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/projectI.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.c" beforeDir="false" afterPath="$PROJECT_DIR$/login.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newbooking.c" beforeDir="false" afterPath="$PROJECT_DIR$/newbooking.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcomescreen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbooking.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="projectI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projectI" TARGET_NAME="projectI" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="projectI" RUN_TARGET_NAME="projectI">
@@ -99,6 +105,25 @@
       <workItem from="1581171954388" duration="1017000" />
       <workItem from="1581175772918" duration="538000" />
       <workItem from="1581246114940" duration="4630000" />
+      <workItem from="1581325312816" duration="66000" />
+      <workItem from="1581604319239" duration="55000" />
+      <workItem from="1581607697291" duration="32000" />
+      <workItem from="1581608014084" duration="162000" />
+      <workItem from="1581608328392" duration="145000" />
+      <workItem from="1581608572764" duration="163000" />
+      <workItem from="1581609321043" duration="110000" />
+      <workItem from="1581609448876" duration="217000" />
+      <workItem from="1581763090182" duration="78000" />
+      <workItem from="1581763338935" duration="43000" />
+      <workItem from="1581764083394" duration="971000" />
+      <workItem from="1581765145165" duration="42000" />
+      <workItem from="1581765662592" duration="497000" />
+      <workItem from="1581950702838" duration="352000" />
+      <workItem from="1581951079188" duration="207000" />
+      <workItem from="1581951305716" duration="89000" />
+      <workItem from="1581951427194" duration="98000" />
+      <workItem from="1581951648816" duration="768000" />
+      <workItem from="1582028442416" duration="2943000" />
     </task>
     <task id="LOCAL-00001" summary="This is first commit by biraj">
       <created>1580364253652</created>
@@ -160,10 +185,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1579798250296" />
-    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581247368571">
+    <state x="361" y="91" key="#Updates" timestamp="1581608449445">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1581247368571" />
+    <state x="361" y="91" key="#Updates/0.0.1536.864@0.0.1536.864" timestamp="1581608449445" />
+    <state x="504" y="110" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog" timestamp="1581766037706">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="504" y="110" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1536.864@0.0.1536.864" timestamp="1581766037706" />
+    <state x="530" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581766060409">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="530" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1581766060409" />
+    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582029918719">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="184" y="150" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1582029918719" />
     <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1580367109916">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -172,30 +209,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="597" y="342" width="366" height="179" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1579798180845" />
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1580620303693">
+    <state width="1493" height="348" key="GridCell.Tab.0.bottom" timestamp="1582031375648">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580620303693" />
-    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1580620303692">
+    <state width="1493" height="348" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582031375648" />
+    <state width="1493" height="348" key="GridCell.Tab.0.center" timestamp="1582031375648">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580620303692" />
-    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1580620303691">
+    <state width="1493" height="348" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1582031375648" />
+    <state width="1493" height="348" key="GridCell.Tab.0.left" timestamp="1582031375648">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580620303691" />
-    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1580620303693">
+    <state width="1493" height="348" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1582031375648" />
+    <state width="1493" height="348" key="GridCell.Tab.0.right" timestamp="1582031375648">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580620303692" />
-    <state x="277" y="75" key="SettingsEditor" timestamp="1581247051846">
+    <state width="1493" height="348" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1582031375648" />
+    <state x="277" y="75" key="SettingsEditor" timestamp="1581951852613">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581247051846" />
-    <state x="444" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1581246194874">
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1581951852613" />
+    <state x="444" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1581951650481">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="444" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581246194874" />
+    <state x="444" y="257" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1581951650481" />
     <state x="456" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581247357941">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -204,5 +241,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="577" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1580367096735" />
+    <state x="777" y="12" width="759" height="852" key="find.popup" timestamp="1582028818755">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="777" y="12" width="759" height="852" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1582028818755" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1582028639265">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1582028639265" />
   </component>
 </project>
