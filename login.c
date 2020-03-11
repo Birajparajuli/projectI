@@ -14,7 +14,7 @@ void login() {
     char Uname[10] = "admin";
     char Pword[10] = "password";
     do {
-        printf("\n\n-----------------LOG IN-----------");
+        printf("\n\n-----------------LOG IN-----------\n\n");
         printf("ENTER USERNAME:-");
         scanf("%s", &userName);
         printf("ENTER PASSWORD:-");
@@ -25,7 +25,7 @@ void login() {
             else printf("*");
             i++;
         }
-        //passWord[i] = '\0';
+        passWord[i] = '\0';
 
 
         if (strcmp(userName, Uname) == 0 &&

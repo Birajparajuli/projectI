@@ -34,9 +34,12 @@ int main() {
     printf("\n");
     printf("\t\t* Date & Time: %s* \n",ctime(&t));
 
+
     /*User Authentic System*/
+    login();
 
-
+    /*Room Booking */
+    roomBooking();
 
     return 0;
 }
