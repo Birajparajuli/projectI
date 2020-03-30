@@ -33,10 +33,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,47 +59,75 @@ include CMakeFiles/projectI.dir/flags.make
 CMakeFiles/projectI.dir/main.c.obj: CMakeFiles/projectI.dir/flags.make
 CMakeFiles/projectI.dir/main.c.obj: ../main.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/projectI.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\main.c.obj   -c "D:\Programming\C Programming\projectI\main.c"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\main.c.obj   -c "D:\Programming\C Programming\projectI\main.c"
 
 CMakeFiles/projectI.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projectI.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\main.c" > CMakeFiles\projectI.dir\main.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\main.c" > CMakeFiles\projectI.dir\main.c.i
 
 CMakeFiles/projectI.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projectI.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\main.c" -o CMakeFiles\projectI.dir\main.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\main.c" -o CMakeFiles\projectI.dir\main.c.s
 
 CMakeFiles/projectI.dir/login.c.obj: CMakeFiles/projectI.dir/flags.make
 CMakeFiles/projectI.dir/login.c.obj: ../login.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/projectI.dir/login.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\login.c.obj   -c "D:\Programming\C Programming\projectI\login.c"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\login.c.obj   -c "D:\Programming\C Programming\projectI\login.c"
 
 CMakeFiles/projectI.dir/login.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projectI.dir/login.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\login.c" > CMakeFiles\projectI.dir\login.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\login.c" > CMakeFiles\projectI.dir\login.c.i
 
 CMakeFiles/projectI.dir/login.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projectI.dir/login.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\login.c" -o CMakeFiles\projectI.dir\login.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\login.c" -o CMakeFiles\projectI.dir\login.c.s
 
 CMakeFiles/projectI.dir/booking.c.obj: CMakeFiles/projectI.dir/flags.make
 CMakeFiles/projectI.dir/booking.c.obj: ../booking.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/projectI.dir/booking.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\booking.c.obj   -c "D:\Programming\C Programming\projectI\booking.c"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\booking.c.obj   -c "D:\Programming\C Programming\projectI\booking.c"
 
 CMakeFiles/projectI.dir/booking.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projectI.dir/booking.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\booking.c" > CMakeFiles\projectI.dir\booking.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\booking.c" > CMakeFiles\projectI.dir\booking.c.i
 
 CMakeFiles/projectI.dir/booking.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projectI.dir/booking.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\booking.c" -o CMakeFiles\projectI.dir\booking.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\booking.c" -o CMakeFiles\projectI.dir\booking.c.s
+
+CMakeFiles/projectI.dir/welcomeScreen.c.obj: CMakeFiles/projectI.dir/flags.make
+CMakeFiles/projectI.dir/welcomeScreen.c.obj: ../welcomeScreen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/projectI.dir/welcomeScreen.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\welcomeScreen.c.obj   -c "D:\Programming\C Programming\projectI\welcomeScreen.c"
+
+CMakeFiles/projectI.dir/welcomeScreen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projectI.dir/welcomeScreen.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\welcomeScreen.c" > CMakeFiles\projectI.dir\welcomeScreen.c.i
+
+CMakeFiles/projectI.dir/welcomeScreen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projectI.dir/welcomeScreen.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\welcomeScreen.c" -o CMakeFiles\projectI.dir\welcomeScreen.c.s
+
+CMakeFiles/projectI.dir/printBooking.c.obj: CMakeFiles/projectI.dir/flags.make
+CMakeFiles/projectI.dir/printBooking.c.obj: ../printBooking.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/projectI.dir/printBooking.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\projectI.dir\printBooking.c.obj   -c "D:\Programming\C Programming\projectI\printBooking.c"
+
+CMakeFiles/projectI.dir/printBooking.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/projectI.dir/printBooking.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\Programming\C Programming\projectI\printBooking.c" > CMakeFiles\projectI.dir\printBooking.c.i
+
+CMakeFiles/projectI.dir/printBooking.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/projectI.dir/printBooking.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\Programming\C Programming\projectI\printBooking.c" -o CMakeFiles\projectI.dir\printBooking.c.s
 
 # Object files for target projectI
 projectI_OBJECTS = \
 "CMakeFiles/projectI.dir/main.c.obj" \
 "CMakeFiles/projectI.dir/login.c.obj" \
-"CMakeFiles/projectI.dir/booking.c.obj"
+"CMakeFiles/projectI.dir/booking.c.obj" \
+"CMakeFiles/projectI.dir/welcomeScreen.c.obj" \
+"CMakeFiles/projectI.dir/printBooking.c.obj"
 
 # External object files for target projectI
 projectI_EXTERNAL_OBJECTS =
@@ -107,11 +135,13 @@ projectI_EXTERNAL_OBJECTS =
 projectI.exe: CMakeFiles/projectI.dir/main.c.obj
 projectI.exe: CMakeFiles/projectI.dir/login.c.obj
 projectI.exe: CMakeFiles/projectI.dir/booking.c.obj
+projectI.exe: CMakeFiles/projectI.dir/welcomeScreen.c.obj
+projectI.exe: CMakeFiles/projectI.dir/printBooking.c.obj
 projectI.exe: CMakeFiles/projectI.dir/build.make
 projectI.exe: CMakeFiles/projectI.dir/linklibs.rsp
 projectI.exe: CMakeFiles/projectI.dir/objects1.rsp
 projectI.exe: CMakeFiles/projectI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable projectI.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Programming\C Programming\projectI\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable projectI.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\projectI.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

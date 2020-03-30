@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Programming/C Programming/projectI/booking.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/booking.c.obj"
   "D:/Programming/C Programming/projectI/login.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/login.c.obj"
   "D:/Programming/C Programming/projectI/main.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/main.c.obj"
+  "D:/Programming/C Programming/projectI/printBooking.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/printBooking.c.obj"
+  "D:/Programming/C Programming/projectI/welcomeScreen.c" "D:/Programming/C Programming/projectI/cmake-build-debug/CMakeFiles/projectI.dir/welcomeScreen.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

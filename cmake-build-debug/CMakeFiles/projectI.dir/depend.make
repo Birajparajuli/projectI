@@ -10,4 +10,13 @@ CMakeFiles/projectI.dir/login.c.obj: ../login.h
 CMakeFiles/projectI.dir/main.c.obj: ../booking.h
 CMakeFiles/projectI.dir/main.c.obj: ../login.h
 CMakeFiles/projectI.dir/main.c.obj: ../main.c
+CMakeFiles/projectI.dir/main.c.obj: ../printBooking.h
+CMakeFiles/projectI.dir/main.c.obj: ../welcomeScreen.h
+
+CMakeFiles/projectI.dir/printBooking.c.obj: ../booking.h
+CMakeFiles/projectI.dir/printBooking.c.obj: ../printBooking.c
+CMakeFiles/projectI.dir/printBooking.c.obj: ../printBooking.h
+
+CMakeFiles/projectI.dir/welcomeScreen.c.obj: ../welcomeScreen.c
+CMakeFiles/projectI.dir/welcomeScreen.c.obj: ../welcomeScreen.h
 
