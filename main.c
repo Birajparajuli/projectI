@@ -24,7 +24,7 @@ int main() {
     /*selection Menu*/
     char choice;
     int i;
-    while (1) {
+    while(1){
         printf("\n");
         printf("\t\t|------------------ |MAIN MENU|-----------------|\n");
         printf("\t\t_________________________________________________\n");
@@ -60,22 +60,22 @@ int main() {
             case '2':
                 printBooking();
                 break;
-            /*case '3':
-                ();
-                break;
-            case '4':
-                search();
-                break;
-            case '5':
-                edit();
-                break;
-            case '6':
-                system("cls");
-                printf("\n\n\t *****THANK YOU*****");
-                printf("\n\t FOR TRUSTING OUR SERVICE");
-                //	Sleep(2000);
-                exit(0);
-                break;*/
+                /*case '3':
+                    ();
+                    break;
+                case '4':
+                    search();
+                    break;
+                case '5':
+                    edit();
+                    break;
+                case '6':
+                    system("cls");
+                    printf("\n\n\t *****THANK YOU*****");
+                    printf("\n\t FOR TRUSTING OUR SERVICE");
+                    //	Sleep(2000);
+                    exit(0);
+                    break;*/
             default:
                 system("cls");
                 printf("Incorrect Input");
