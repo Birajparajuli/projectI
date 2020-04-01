@@ -39,4 +39,3 @@ void printBooking(){
     fclose(f);
     getch();
 }
-f
