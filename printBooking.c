@@ -21,8 +21,7 @@ void printBooking(){
     printf("\t\t  PERIOD ");
     printf("\t ARRIVALDATE \n");
 
-    for(i=0;i<118;i++)
-        printf("-");
+    printf("________________________________________________________________________________________________________");
     while(fread(&s,sizeof(s),1,f)==1)
     {
         /*printf("ROOMNUMBER :\t%s\n",s.roomnumber);
@@ -33,9 +32,7 @@ void printBooking(){
         printf("\n%s \t%s \t\t%s \t\t%s \t%s  \t%s  \t     %s  ",s.roomnumber, s.name , s.nationality , s.phonenumber,s.email,s.period,  s.arrivaldate);
     }
     printf("\n");
-    for(i=0;i<118;i++)
-        printf("-");
-
+    printf("________________________________________________________________________________________________________");
     fclose(f);
     getch();
 }

@@ -6,41 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Programming/C Programming/projectI/booking.h
-stdio.h
--
-conio.h
--
-
-D:/Programming/C Programming/projectI/login.h
-stdio.h
--
-string.h
--
-conio.h
--
-
-D:/Programming/C Programming/projectI/main.c
-stdio.h
--
-math.h
--
-conio.h
--
-time.h
--
-windows.h
--
-login.h
-D:/Programming/C Programming/projectI/login.h
+D:/Programming/C Programming/projectI/booking.c
 booking.h
 D:/Programming/C Programming/projectI/booking.h
 welcomeScreen.h
 D:/Programming/C Programming/projectI/welcomeScreen.h
-printBooking.h
-D:/Programming/C Programming/projectI/printBooking.h
 
-D:/Programming/C Programming/projectI/printBooking.h
+D:/Programming/C Programming/projectI/booking.h
+stdio.h
+-
 conio.h
 -
 

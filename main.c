@@ -8,6 +8,7 @@
 #include <conio.h>
 #include <time.h>
 #include <windows.h>
+#include <ctype.h>
 
 /*Local Libraries*/
 #include "login.h"

@@ -1,7 +1,8 @@
 #include "booking.h"
+#include "welcomeScreen.h"
 
 void roomBooking() {
-    file = fopen("D:\\Programming\\C Programming\\projectI\\hotelData.txt", "a+");
+    file = fopen("hotelData.txt", "a+");
     if (file == NULL) {
         printf("Error saving Hotel data.");
     }
@@ -48,6 +49,7 @@ void roomBooking() {
         printf("\t\t|-----------------------------------------------|\n\n");
 
         fwrite(&s, sizeof(s), 1, file);
+        //fprintf("hotelData.txt","%s",ctime(&t));
         /*fprintf("add.txt","%s\t%s\t%s\t%s\t%s\t%s\t%s", s.roomnumber, s.name, s.address, s.phonenumber,s.nationality, s.email, s.period);*/
         printf("Do you want to book another room?(Y/N):");
         char ch = getch();
