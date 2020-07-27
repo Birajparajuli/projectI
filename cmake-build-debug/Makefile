@@ -149,6 +149,33 @@ booking.c.s:
 	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/booking.c.s
 .PHONY : booking.c.s
 
+deleteBooking.obj: deleteBooking.c.obj
+
+.PHONY : deleteBooking.obj
+
+# target to build an object file
+deleteBooking.c.obj:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/deleteBooking.c.obj
+.PHONY : deleteBooking.c.obj
+
+deleteBooking.i: deleteBooking.c.i
+
+.PHONY : deleteBooking.i
+
+# target to preprocess a source file
+deleteBooking.c.i:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/deleteBooking.c.i
+.PHONY : deleteBooking.c.i
+
+deleteBooking.s: deleteBooking.c.s
+
+.PHONY : deleteBooking.s
+
+# target to generate assembly for a file
+deleteBooking.c.s:
+	$(MAKE) -f CMakeFiles\projectI.dir\build.make CMakeFiles/projectI.dir/deleteBooking.c.s
+.PHONY : deleteBooking.c.s
+
 login.obj: login.c.obj
 
 .PHONY : login.obj
@@ -269,6 +296,9 @@ help:
 	@echo ... booking.obj
 	@echo ... booking.i
 	@echo ... booking.s
+	@echo ... deleteBooking.obj
+	@echo ... deleteBooking.i
+	@echo ... deleteBooking.s
 	@echo ... login.obj
 	@echo ... login.i
 	@echo ... login.s

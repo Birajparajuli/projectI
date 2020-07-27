@@ -5,6 +5,8 @@ CMakeFiles/projectI.dir/booking.c.obj: ../booking.c
 CMakeFiles/projectI.dir/booking.c.obj: ../booking.h
 CMakeFiles/projectI.dir/booking.c.obj: ../welcomeScreen.h
 
+CMakeFiles/projectI.dir/deleteBooking.c.obj: ../deleteBooking.c
+
 CMakeFiles/projectI.dir/login.c.obj: ../login.c
 CMakeFiles/projectI.dir/login.c.obj: ../login.h
 

@@ -18,6 +18,7 @@
 
 
 int main() {
+    printBooking();
     /*Welcome Screen*/
     welcome();
     /*Login Form*/
@@ -25,7 +26,7 @@ int main() {
     /*selection Menu*/
     char choice;
     int i;
-    while(1){
+    while (1) {
         printf("\n");
         printf("\t\t|------------------ |MAIN MENU|-----------------|\n");
         printf("\t\t_________________________________________________\n");

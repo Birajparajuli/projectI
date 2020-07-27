@@ -16,20 +16,15 @@ void printBooking(){
     printf("ROOM    ");
     printf("NAME\t ");
     printf("\tNATIONALITY ");
-    printf("\tPHONENUMBER ");
+    printf("\tPHONE NUMBER ");
     printf("\tEMAIL ");
     printf("\t\t  PERIOD ");
-    printf("\t ARRIVALDATE \n");
+    printf("\t ARRIVAL DATE \n");
 
     printf("________________________________________________________________________________________________________");
     while(fread(&s,sizeof(s),1,f)==1)
     {
-        /*printf("ROOMNUMBER :\t%s\n",s.roomnumber);
-        printf("NAME:\t%s\n",,s.name);
-        printf("ADDRESS:\t%s\n",s.address);
-        printf("PHONENUMBER:\t%s\n",s.phonenumber);
-        printf("NATIONALITY \n");*/
-        printf("\n%s \t%s \t\t%s \t\t%s \t%s  \t%s  \t     %s  ",s.roomnumber, s.name , s.nationality , s.phonenumber,s.email,s.period,  s.arrivaldate);
+        printf("\n%s \t%s \t\t%s \t%s \t%s  \t%s  \t     %s  ",s.roomnumber, s.name , s.nationality , s.phonenumber,s.email,s.period,  s.arrivaldate);
     }
     printf("\n");
     printf("________________________________________________________________________________________________________");

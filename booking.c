@@ -3,6 +3,7 @@
 
 void roomBooking() {
     file = fopen("hotelData.txt", "a+");
+    file1=fopen("allData.txt","a+");
     if (file == NULL) {
         printf("Error saving Hotel data.");
     }
@@ -49,8 +50,10 @@ void roomBooking() {
         printf("\t\t|-----------------------------------------------|\n\n");
 
         fwrite(&s, sizeof(s), 1, file);
+        fwrite(&s, sizeof(s), 1, file1);
+
+
         //fprintf("hotelData.txt","%s",ctime(&t));
-        /*fprintf("add.txt","%s\t%s\t%s\t%s\t%s\t%s\t%s", s.roomnumber, s.name, s.address, s.phonenumber,s.nationality, s.email, s.period);*/
         printf("Do you want to book another room?(Y/N):");
         char ch = getch();
         if (ch == 'N' || ch == 'n')

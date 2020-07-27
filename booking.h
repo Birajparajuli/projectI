@@ -15,5 +15,6 @@ struct CustomerDetails {
 } s;
 //struct CustomerDetails s;
 FILE *file;
+FILE *file1;
 void roomBooking();
 #endif //PROJECTI_BOOKING_H

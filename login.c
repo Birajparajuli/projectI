@@ -26,7 +26,7 @@ void login() {
             else printf("*");
             i++;
         }
-        passWord[i] = '\0';
+        //passWord[i] = '\0';
 
 
         if (strcmp(userName, Uname) == 0 && strcmp(passWord, Pword) == 0) {

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/projectI.dir/booking.c.obj"
+  "CMakeFiles/projectI.dir/deleteBooking.c.obj"
   "CMakeFiles/projectI.dir/login.c.obj"
   "CMakeFiles/projectI.dir/main.c.obj"
   "CMakeFiles/projectI.dir/printBooking.c.obj"

@@ -80,6 +80,12 @@
 		<Unit filename="D:/Programming/C Programming/projectI/booking.h">
 			<Option target="projectI"/>
 		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/deleteBooking.c">
+			<Option target="projectI"/>
+		</Unit>
+		<Unit filename="D:/Programming/C Programming/projectI/deleteBooking.h">
+			<Option target="projectI"/>
+		</Unit>
 		<Unit filename="D:/Programming/C Programming/projectI/login.c">
 			<Option target="projectI"/>
 		</Unit>
