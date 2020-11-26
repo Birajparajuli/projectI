@@ -10,7 +10,7 @@ void welcome(){
     printf("\t\t_________________________________________________\n");
     printf("\t\t|                                               |\n");
     printf("\t\t|-----------------------------------------------|\n");
-    printf("\t\t|        WELCOME TO HOTEL HELLO WORLD           |\n");
+    printf("\t\t|        WELCOME TO HOTEL Suite           |\n");
     printf("\t\t|-----------------------------------------------|\n");
     printf("\t\t|                                               |\n");
     printf("\t\t|                                               |\n");
