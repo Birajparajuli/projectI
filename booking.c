@@ -1,65 +1,50 @@
-#include "booking.h"
-#include "welcomeScreen.h"
+#include"booking.h"
 
-void roomBooking() {
-    file = fopen("hotelData.txt", "a+");
-    file1=fopen("allData.txt","a+");
-    if (file == NULL) {
-        printf("Error saving Hotel data.");
-    }
-    while (1) {
-        printf("\n");
-        printf("\t\t|-----------------------------------------------|\n");
-        printf("\t\t|                 BOOKING FORM                  |\n");
-        printf("\t\t|-----------------------------------------------|\n\n");
+void booking(){
+    Dfile = fopen("data.dat", "a+");
+    if(Dfile==NULL){
+        printf("Error Saving Data");
 
-        printf("\t\t            Enter Customer Details:               \n");
-        printf("\t\t-------------------------------------------------\n\n");
+    }else{
+        printf("Enter Room Number:");
+        scanf("%d", &e.roomNumber);
 
-        printf("Enter Room number:");
-        scanf("%s", &s.roomnumber);
-        printf("=================================================\n");
+        printf("Enter Name:");
+        //fgets(e.name,15,stdin);
+        scanf("%s", &e.name);
 
-        printf("Enter Your Name:");
-        scanf("%s", &s.name);
-        printf("=================================================\n");
+        printf("Enter Phone Number:");
+        scanf("%s", &e.phoneNumber);
 
-        printf("Enter Your Nationality:");
-        scanf("%s", &s.nationality);
-        printf("=================================================\n");
+        printf("Enter  your Country:");
+        scanf("%s", &e.country);
 
-        printf("Enter Your Phone Number:");
-        scanf("%s", &s.phonenumber);
-        printf("=================================================\n");
+        printf("Enter Arrival Date DD-MM-YYYY:");
+        scanf("%s", &e.arrivalDate);
 
-        printf("Enter Your Email:");
-        scanf(" %s", &s.email);
-        printf("=================================================\n");
+        printf("Total Stay Days:");
+        scanf("%d", &e.stayPeriod);
 
-        printf("Enter period(Number of days):");
-        scanf("%s", &s.period);
-        printf("=================================================\n");
+        fwrite(&e,sizeof(e),1,Dfile);
+        fclose(Dfile);
+        system("cls");
 
-        printf("Enter Arrival date(DD/MM/YYYY):");
-        scanf("%s", &s.arrivaldate);
-        printf("=================================================\n");
-
-        printf("\n\nRoom is successfully booked!\n");
-        printf("\t\t|-----------------------------------------------|\n");
-        printf("\t\t|         ROOM IS SUCCESSFULLY BOOKED           |\n");
-        printf("\t\t|-----------------------------------------------|\n\n");
-
-        fwrite(&s, sizeof(s), 1, file);
-        fwrite(&s, sizeof(s), 1, file1);
+        loadingBar();
+        system("cls");
+        printf("\nRoom is successfully Booked\n ");
+        printf("Book another room?(Y/N)");
 
 
-        //fprintf("hotelData.txt","%s",ctime(&t));
-        printf("Do you want to book another room?(Y/N):");
-        char ch = getch();
-        if (ch == 'N' || ch == 'n')
-            break;
+
+        char in = getch();
+        if (in=='y'||in=='Y'){
+            booking();
+        }else{
+            dashboard();
+        }
+
+
 
     }
-    fclose(file);
+    system("cls");
 }
-

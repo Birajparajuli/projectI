@@ -1,57 +1,49 @@
-/*Login verification system*/
 #include "login.h"
 
+void login()
+{
+    printf("\n");
+    printf("LOGIN FORM\n");
+    printf("Enter Username:");
+    scanf("%s",&username);
+    printf("Enter Password:");
 
-void login() {
-    int a = 0, i = 0, c=0;
-    char Uname[10] = "admin";                               /*Username: admin, Password: password*/
-    char Pword[10] = "password";
-    do {
-        printf("\n\n");
-        printf("\t\t|-----------------------------------------------|\n");
-        printf("\t\t                      LOG IN                    \n");
-        printf("\t\t|-----------------------------------------------|\n\n\n");
-        printf("ENTER USERNAME\n");
-        printf("_________________________________________________\n");
-        scanf("\t\t%s", &userName);
-        printf("\n");
-        printf("ENTER PASSWORD\n");
-        printf("_________________________________________________\n");
-
-        while(i<10)
+    while(i<10)
         {
-            passWord[i]=getch();
-            c=passWord[i];
-            if(c==13) break;
-            else printf("*");
+            password[i]=getch();
+            c=password[i];
+            if (password[i]!= '\r'){
+                printf("*");
+            }else{
+                break;
+            }
             i++;
         }
-        //passWord[i] = '\0';
+
+    password[i]='\0';
+    i=0;
+    system("cls");
+    /*Progress bar*/
+    loadingBar();
 
 
-        if (strcmp(userName, Uname) == 0 && strcmp(passWord, Pword) == 0) {
-            printf("\n\n");
-            printf("\t\t|-----------------------------------------------|\n");
-            printf("\t\t        WELCOME BACK! LOGIN IS SUCCESSFUL        \n");
-            printf("\t\t|-----------------------------------------------|\n");
 
-            break;
-        } else {
-            printf("\n\n");
-            printf("\t\t|-----------------------------------------------|\n");
-            printf("\t\t          SORRY! LOGIN IS UNSUCCESSFUL           \n");
-            printf("\t\t|-----------------------------------------------|\n");
-        }
-        printf("Press any Btn to continue");
-        getch();
+    /*strcmp() compares the two strings character by character*/
+    if(strcmp(password,dPassword)==0 && strcmp(username,dUsername)==0){
+        printf("\n \t\t\t\t\tLogin Successful");
+        Sleep(500);
+        printf("\n \t\t\t\t\tWELCOME BACK ");
+        Sleep(500);
+        system("cls");
+        //dashboard();
+
+    }else{
+        printf("\n\t\t\t\t\tLogin Unsuccessful  TRY AGAIN");
+        Sleep(1000);
+        system("cls");
+        login();
     }
-    while(a<=2);
-//    if (a>2)
-//    {
-//        printf("\nSORRY ! You Have Entered Wrong Username or Password for 4 times");
-//
-//        getch();
-//
-//    }
+
+
 }
 

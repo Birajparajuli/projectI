@@ -1,13 +1,9 @@
-//
-// Created by Acer on 3/26/2020.
-//
+#ifndef WELCOMESCREEN_H_INCLUDED
+#define WELCOMESCREEN_H_INCLUDED
 
-#ifndef PROJECTI_WELCOMESCREEN_H
-#define PROJECTI_WELCOMESCREEN_H
 
-#include <time.h>
 #include <stdio.h>
+#include <conio.h>
+#include <string.h>
 
-time_t t;
-void welcome();
-#endif //PROJECTI_WELCOMESCREEN_H
+#endif

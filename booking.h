@@ -1,20 +1,24 @@
-#ifndef PROJECTI_BOOKING_H
-#define PROJECTI_BOOKING_H
+#ifndef BOOKING_H_INCLUDED
+#define BOOKING_H_INCLUDED
 
-/*-----------Customer Details Struct Variables Declaration------------------*/
+
+
 #include <stdio.h>
 #include <conio.h>
-struct CustomerDetails {
-    char roomnumber[10];
-    char name[20];
-    char nationality[25];
-    char phonenumber[15];
-    char email[20];
-    char period[10];
-    char arrivaldate[10];
-} s;
-//struct CustomerDetails s;
-FILE *file;
-FILE *file1;
-void roomBooking();
-#endif //PROJECTI_BOOKING_H
+#include <string.h>
+
+//int j=0, n=0;
+struct customerInfo{
+    int roomNumber;
+    char name[15];
+    char phoneNumber[15];
+    char country[10];
+    char arrivalDate[10];
+    int stayPeriod;
+}e;
+
+FILE *Dfile;
+
+
+#endif
+

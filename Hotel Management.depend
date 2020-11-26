@@ -1,0 +1,185 @@
+# depslib dependency file v1.0
+1595494838 source:c:\users\acer\onedrive\desktop\hotel management\login.c
+	"login.h"
+
+1595500061 source:c:\users\acer\onedrive\desktop\hotel management\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<time.h>
+
+1595393857 source:c:\users\acer\onedrive\desktop\hotel management\welcomescreen.c
+	"welcomeScreen.h"
+
+1595393837 c:\users\acer\onedrive\desktop\hotel management\welcomescreen.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595395893 c:\users\acer\onedrive\desktop\hotel management\login.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1595396308 source:c:\users\acer\onedrive\desktop\hotel management\dashboard.c
+	"dashboard.h"
+
+1595393992 c:\users\acer\onedrive\desktop\hotel management\dashboard.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595493663 source:c:\users\acer\onedrive\desktop\hotel management\loadingbar.c
+	"loadingBar.h"
+
+1595394860 c:\users\acer\onedrive\desktop\hotel management\loadingbar.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1595499970 source:c:\users\acer\onedrive\desktop\hotel management\booking.c
+	"booking.h"
+
+1595496820 c:\users\acer\onedrive\desktop\hotel management\booking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595499970 source:c:\users\acer\onedrive\desktop\hotel management\viewbooking.c
+	"viewBooking.h"
+	"booking.h"
+
+1595495978 c:\users\acer\onedrive\desktop\hotel management\viewbooking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595499970 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\booking.c
+	"booking.h"
+
+1595496820 c:\users\acer\onedrive\desktop\all stuff\hotel management\booking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1597296712 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\dashboard.c
+	"dashboard.h"
+
+1597296545 c:\users\acer\onedrive\desktop\all stuff\hotel management\dashboard.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595493663 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\loadingbar.c
+	"loadingBar.h"
+
+1595394860 c:\users\acer\onedrive\desktop\all stuff\hotel management\loadingbar.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1595494838 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\login.c
+	"login.h"
+
+1595395893 c:\users\acer\onedrive\desktop\all stuff\hotel management\login.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1597296446 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<time.h>
+
+1595500393 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\viewbooking.c
+	"viewBooking.h"
+	"booking.h"
+
+1595495978 c:\users\acer\onedrive\desktop\all stuff\hotel management\viewbooking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595393857 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\welcomescreen.c
+	"welcomeScreen.h"
+
+1595393837 c:\users\acer\onedrive\desktop\all stuff\hotel management\welcomescreen.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1597296472 source:c:\users\acer\onedrive\desktop\all stuff\hotel management\checkout.c
+	"checkOut.h"
+
+1597296382 c:\users\acer\onedrive\desktop\all stuff\hotel management\checkout.h
+
+1595499970 source:c:\users\acer\onedrive\desktop\projecti\booking.c
+	"booking.h"
+
+1595496820 c:\users\acer\onedrive\desktop\projecti\booking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1597296472 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
+	"checkOut.h"
+
+1597296382 c:\users\acer\onedrive\desktop\projecti\checkout.h
+
+1597296712 source:c:\users\acer\onedrive\desktop\projecti\dashboard.c
+	"dashboard.h"
+
+1597296545 c:\users\acer\onedrive\desktop\projecti\dashboard.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595493663 source:c:\users\acer\onedrive\desktop\projecti\loadingbar.c
+	"loadingBar.h"
+
+1595394860 c:\users\acer\onedrive\desktop\projecti\loadingbar.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1595494838 source:c:\users\acer\onedrive\desktop\projecti\login.c
+	"login.h"
+
+1595395893 c:\users\acer\onedrive\desktop\projecti\login.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1597296446 source:c:\users\acer\onedrive\desktop\projecti\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<time.h>
+
+1595500393 source:c:\users\acer\onedrive\desktop\projecti\viewbooking.c
+	"viewBooking.h"
+	"booking.h"
+
+1595495978 c:\users\acer\onedrive\desktop\projecti\viewbooking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+
+1595393857 source:c:\users\acer\onedrive\desktop\projecti\welcomescreen.c
+	"welcomeScreen.h"
+
+1595393837 c:\users\acer\onedrive\desktop\projecti\welcomescreen.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+

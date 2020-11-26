@@ -1,15 +1,19 @@
-//
-// Created by Acer on 2/18/2020.
-//
 
-#ifndef PROJECTI_LOGIN_H
-#define PROJECTI_LOGIN_H
+#ifndef LOGIN_H_INCLUDED
+#define LOGIN_H_INCLUDED
+
+
 #include <stdio.h>
-#include <string.h>
 #include <conio.h>
+#include <string.h>
+#include <windows.h>
 
-void login();
-char userName[10];
-char passWord[10];
 
-#endif //PROJECTI_LOGIN_H
+int a =0, i=0, c=0;
+
+char username[10];
+char password[10];
+char dUsername[10]="admin";
+char dPassword[10] = "password";
+
+#endif
