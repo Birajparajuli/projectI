@@ -6,4 +6,4 @@
 ```bash
 git clone https://github.com/Birajparajuli/projectI.git
 ```
-## Clone projects and run it on CodeBlocks
+## Clone project and run it on CodeBlocks
