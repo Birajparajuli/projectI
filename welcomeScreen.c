@@ -1,3 +1,7 @@
+/*************************************
+            WELCOME SCREEN
+**************************************/
+
 #include "welcomeScreen.h"
 
 void welcome(){

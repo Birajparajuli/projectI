@@ -1,6 +1,12 @@
+/*************************************
+            BOOKING PAGE
+**************************************/
+
 #include"booking.h"
 
 void booking(){
+    //printf("Total Rooms: ");
+
     Dfile = fopen("data.dat", "a+");
     if(Dfile==NULL){
         printf("Error Saving Data");
@@ -9,9 +15,11 @@ void booking(){
         printf("Enter Room Number:");
         scanf("%d", &e.roomNumber);
 
-        printf("Enter Name:");
-        //fgets(e.name,15,stdin);
-        scanf("%s", &e.name);
+        printf("Enter First Name:");
+        scanf("%s", &e.firstName);
+
+        printf("Enter Last Name:");
+        scanf("%s", &e.lastName);
 
         printf("Enter Phone Number:");
         scanf("%s", &e.phoneNumber);
@@ -24,6 +32,9 @@ void booking(){
 
         printf("Total Stay Days:");
         scanf("%d", &e.stayPeriod);
+
+        printf("Catagory of Room:");
+        scanf("%d",&e.catagory);
 
         fwrite(&e,sizeof(e),1,Dfile);
         fclose(Dfile);

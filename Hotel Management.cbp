@@ -54,6 +54,12 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="pricing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pricing.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="viewBooking.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -62,10 +68,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="welcomeScreen.h" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

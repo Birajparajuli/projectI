@@ -1,28 +1,33 @@
+/*************************************
+            VIEW BOOKING LIST
+**************************************/
+
 #include "viewBooking.h"
 #include "booking.h"
 
 void viewBooking(){
-    FILE *f;
 
-    if((f=fopen("data.dat","r"))==NULL)
-        //exit(0);
-        printf("Error Showing Hotel Data.");
-    //system("cls");
-    printf("Room No    ");
-    printf("Name\t ");
-    printf("\tCountry ");
+    Dfile=fopen("data.dat","r");
+
+
+    printf("Room No");
+    printf("\t\tName");
+    printf("\t\tCountry ");
     printf("\tPhone No ");
-    printf("\t Arrival Date ");
-    printf("\t\t Stay Period \n");
+    printf("\tArrival Date ");
+    printf("\tStay Period");
+    printf("\tR.Catagory\n");
 
 
-    printf("________________________________________________________________________________________________________");
-    while(fread(&e,sizeof(e),1,f)==1)  /*REF FROM  _CRTIMP size_t __cdecl __MINGW_NOTHROW	fread (void*, size_t, size_t, FILE*);*/
+    printf("____________________________________________________________________________________________________________\n");
+
+    while(fread(&e,sizeof(e),1,Dfile)==1)  /*REF FROM  _CRTIMP size_t __cdecl __MINGW_NOTHROW	fread (void*, size_t, size_t, FILE*);*/
     {
-        printf("\n%d\t%s\t\t%s\t\t%s\t%s\t\t%d",e.roomNumber, e.name , e.country , e.phoneNumber,e.arrivalDate, e.stayPeriod);
+        printf("%d\t%s %s\t\t%s\t\t%s\t%s\t\t%d\t\t%d\t\n",e.roomNumber, e.firstName ,e.lastName, e.country , e.phoneNumber,e.arrivalDate, e.stayPeriod, e.catagory);
     }
     printf("\n");
-    printf("________________________________________________________________________________________________________");
-    fclose(f);
+    printf("______________________________________________________________________________________________________________");
+    fclose(Dfile);
     getch();
+    dashboard();
 }

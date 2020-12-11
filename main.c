@@ -1,3 +1,7 @@
+/*************************************
+            MAIN FILE
+**************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -6,13 +10,10 @@
 
 int main()
 {
-    welcome();
 
+    welcome();
     login();
     dashboard();
-
-
-
 
     return 0;
 }

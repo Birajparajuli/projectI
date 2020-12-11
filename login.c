@@ -27,8 +27,8 @@ void login()
     loadingBar();
 
 
-
     /*strcmp() compares the two strings character by character*/
+
     if(strcmp(password,dPassword)==0 && strcmp(username,dUsername)==0){
         printf("\n \t\t\t\t\tLogin Successful");
         Sleep(500);

@@ -15,6 +15,8 @@ void dashboard()
         select = getch();
         select = toupper(select);
         system("cls");
+
+        /*switch statement to select different pages*/
         switch(select){
         case '1':
             booking();
