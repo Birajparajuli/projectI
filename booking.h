@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
+#include <windows.h>
 
 
 struct customerInfo{
@@ -16,10 +17,11 @@ struct customerInfo{
     char country[10];
     char arrivalDate[10];
     int stayPeriod;
-    int catagory;
+    int category;
 }e;
 
 FILE *Dfile;
+FILE *RDfile;
 
 
 #endif

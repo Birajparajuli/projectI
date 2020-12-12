@@ -6,26 +6,26 @@
 
 int pricing(int days, int cat)
 {
-    printf("Pricing Calculation");
+    printf("\nPrice Calculation:\n");
 
 
     switch(cat){
     case 1:
         {
-        printf("delux");
+        printf("Room Category: Deluxe");
         finalPrice = 5000*days;
         break;
         }
 
     case 2:
         {
-        printf("premiun");
+        printf("Room Category: Premium");
         finalPrice = 3000*days;
         break;
         }
     case 3:
         {
-        printf("basic");
+        printf("Room Category: Basic");
         finalPrice = 1500*days;
         break;
         }

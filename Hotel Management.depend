@@ -120,19 +120,21 @@
 
 1597296382 c:\users\acer\onedrive\desktop\all stuff\hotel management\checkout.h
 
-1607670833 source:c:\users\acer\onedrive\desktop\projecti\booking.c
+1607758495 source:c:\users\acer\onedrive\desktop\projecti\booking.c
 	"booking.h"
 
-1607676368 c:\users\acer\onedrive\desktop\projecti\booking.h
+1607758133 c:\users\acer\onedrive\desktop\projecti\booking.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
+	<windows.h>
 
-1607673429 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
+1607756902 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
 	"checkOut.h"
 	"booking.h"
+	"pricing.h"
 
-1607309561 c:\users\acer\onedrive\desktop\projecti\checkout.h
+1607754105 c:\users\acer\onedrive\desktop\projecti\checkout.h
 
 1607673454 source:c:\users\acer\onedrive\desktop\projecti\dashboard.c
 	"dashboard.h"
@@ -160,14 +162,14 @@
 	<string.h>
 	<windows.h>
 
-1607588657 source:c:\users\acer\onedrive\desktop\projecti\main.c
+1607754896 source:c:\users\acer\onedrive\desktop\projecti\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<windows.h>
 	<time.h>
 
-1607672186 source:c:\users\acer\onedrive\desktop\projecti\viewbooking.c
+1607756667 source:c:\users\acer\onedrive\desktop\projecti\viewbooking.c
 	"viewBooking.h"
 	"booking.h"
 
@@ -184,7 +186,7 @@
 	<conio.h>
 	<string.h>
 
-1607676265 source:c:\users\acer\onedrive\desktop\projecti\pricing.c
+1607753937 source:c:\users\acer\onedrive\desktop\projecti\pricing.c
 	"pricing.h"
 	"booking.h"
 

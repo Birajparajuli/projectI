@@ -12,7 +12,7 @@ void checkOut()
 {
 system("cls");
 
-	int roomnumber, days, cat;
+
 	Dfile=fopen("data.dat","r+");
 	if(Dfile==0)
 		exit(0);
@@ -26,17 +26,27 @@ system("cls");
 			printf("Database Found");
 			printf("\nRoom Number:\t%d",e.roomNumber);
 			printf("\nName:\t%s %s",e.firstName,e.lastName);
-			printf("\nCatagory:\t%s",e.catagory);
+			printf("\nTotal Stay:%d Days\n",e.stayPeriod);
+			printf("\nCatagory:%d\n",e.category);
 
             days= e.stayPeriod;
-            cat= e.catagory;
+            cat= e.category;
 			pricing(days,cat);
 		}
 	}
 
     fclose(Dfile);
 
-    printf("\ntotal price is %f", finalPrice);
-	getch();
-	dashboard();
+    printf("\ntotal price is Rs. %.2f/-\n\n", finalPrice);
+    printf("Proceed Checkout?");
+    in = getch();
+    if (in=='y'||in=='Y'){
+
+        deleteBooking();
+    }else{
+        system("cls");
+        dashboard();
+    }
+
+
 }

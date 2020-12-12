@@ -43,6 +43,13 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="dashboard.h" />
+		<Unit filename="deleteBooking.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="deleteBooking.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="loadingBar.c">
 			<Option compilerVar="CC" />
 		</Unit>
