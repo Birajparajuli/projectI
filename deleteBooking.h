@@ -6,5 +6,5 @@
 #include <string.h>
 #include <windows.h>
 
-
+deleteBooking();
 #endif // DELETEBOOKING_H_INCLUDED

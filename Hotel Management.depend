@@ -120,7 +120,7 @@
 
 1597296382 c:\users\acer\onedrive\desktop\all stuff\hotel management\checkout.h
 
-1607758495 source:c:\users\acer\onedrive\desktop\projecti\booking.c
+1607938178 source:c:\users\acer\onedrive\desktop\projecti\booking.c
 	"booking.h"
 
 1607758133 c:\users\acer\onedrive\desktop\projecti\booking.h
@@ -129,22 +129,24 @@
 	<string.h>
 	<windows.h>
 
-1607756902 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
+1607949436 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
 	"checkOut.h"
 	"booking.h"
 	"pricing.h"
+	"deleteBooking.h"
 
-1607754105 c:\users\acer\onedrive\desktop\projecti\checkout.h
+1607767900 c:\users\acer\onedrive\desktop\projecti\checkout.h
 
-1607673454 source:c:\users\acer\onedrive\desktop\projecti\dashboard.c
+1607938831 source:c:\users\acer\onedrive\desktop\projecti\dashboard.c
 	"dashboard.h"
+	"booking.h"
 
-1607309561 c:\users\acer\onedrive\desktop\projecti\dashboard.h
+1607936232 c:\users\acer\onedrive\desktop\projecti\dashboard.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
 
-1607309561 source:c:\users\acer\onedrive\desktop\projecti\loadingbar.c
+1607947124 source:c:\users\acer\onedrive\desktop\projecti\loadingbar.c
 	"loadingBar.h"
 
 1607309561 c:\users\acer\onedrive\desktop\projecti\loadingbar.h
@@ -153,7 +155,7 @@
 	<string.h>
 	<windows.h>
 
-1607309956 source:c:\users\acer\onedrive\desktop\projecti\login.c
+1607935966 source:c:\users\acer\onedrive\desktop\projecti\login.c
 	"login.h"
 
 1607608548 c:\users\acer\onedrive\desktop\projecti\login.h
@@ -178,7 +180,7 @@
 	<conio.h>
 	<string.h>
 
-1607588553 source:c:\users\acer\onedrive\desktop\projecti\welcomescreen.c
+1607935805 source:c:\users\acer\onedrive\desktop\projecti\welcomescreen.c
 	"welcomeScreen.h"
 
 1607309561 c:\users\acer\onedrive\desktop\projecti\welcomescreen.h
@@ -186,7 +188,7 @@
 	<conio.h>
 	<string.h>
 
-1607753937 source:c:\users\acer\onedrive\desktop\projecti\pricing.c
+1607938710 source:c:\users\acer\onedrive\desktop\projecti\pricing.c
 	"pricing.h"
 	"booking.h"
 
@@ -194,4 +196,12 @@
 	<stdio.h>
 	<conio.h>
 	<string.h>
+
+1607947686 c:\users\acer\onedrive\desktop\projecti\deletebooking.h
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<windows.h>
+
+1607949406 source:c:\users\acer\onedrive\desktop\projecti\delete.c
 

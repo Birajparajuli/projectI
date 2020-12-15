@@ -7,6 +7,8 @@
 
 void viewBooking(){
 
+    /****Opens Data File in Reading Mode***/
+
     Dfile=fopen("data.dat","r");
 
 
@@ -21,7 +23,7 @@ void viewBooking(){
 
     printf("____________________________________________________________________________________________________________\n");
 
-    while(fread(&e,sizeof(e),1,Dfile)==1)  /*REF FROM  _CRTIMP size_t __cdecl __MINGW_NOTHROW	fread (void*, size_t, size_t, FILE*);*/
+    while(fread(&e,sizeof(e),1,Dfile)==1)  /**REF FROM  _CRTIMP size_t __cdecl __MINGW_NOTHROW	fread (void*, size_t, size_t, FILE*);**/
     {
         printf("%d\t%s %s\t\t%s\t\t%s\t%s\t\t%d\t\t%d\t\n",e.roomNumber, e.firstName ,e.lastName, e.country , e.phoneNumber,e.arrivalDate, e.stayPeriod, e.category);
     }

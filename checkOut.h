@@ -4,4 +4,5 @@
 
 int roomnumber, days, cat;
 char in;
+
 #endif // CHECKOUT_H_INCLUDED

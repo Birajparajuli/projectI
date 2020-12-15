@@ -11,9 +11,9 @@
 int main()
 {
 
-    welcome();
-    login();
-    dashboard();
+    welcome();          /****WELCOME SCREEN***/
+    login();            /****LOGIN PAGE***/
+    dashboard();        /****DASHBOARD***/
 
     return 0;
 }

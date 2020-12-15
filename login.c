@@ -3,10 +3,12 @@
 void login()
 {
     printf("\n");
-    printf("LOGIN FORM\n");
-    printf("Enter Username:");
+    printf("\t\t\t------------------------------------------\n");
+    printf("\t\t\t\t\tLOGIN FORM\n");
+    printf("\t\t\t-------------------------------------------\n");
+    printf("\t\t\tEnter Username:");
     scanf("%s",&username);
-    printf("Enter Password:");
+    printf("\t\t\tEnter Password:");
 
     while(i<10)
         {
@@ -24,6 +26,7 @@ void login()
     i=0;
     system("cls");
     /*Progress bar*/
+
     loadingBar();
 
 

@@ -6,5 +6,5 @@
 #include <conio.h>
 #include <string.h>
 
-char select;
+
 #endif
