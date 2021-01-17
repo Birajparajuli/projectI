@@ -17,11 +17,11 @@ struct customerInfo{
     char country[10];
     char arrivalDate[10];
     int stayPeriod;
-    int category;
 }e;
 
 FILE *Dfile;
 FILE *RDfile;
+
 
 
 #endif

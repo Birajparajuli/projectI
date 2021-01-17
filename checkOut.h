@@ -2,7 +2,7 @@
 #define CHECKOUT_H_INCLUDED
 
 
-int roomnumber, days, cat;
+int roomnumber, days, roomNum;
 char in;
 
 #endif // CHECKOUT_H_INCLUDED

@@ -9,24 +9,12 @@ void dashboard()
     {
         system("color 2e");                                                    /*Color*/
         printf("\t\tWelcome Back Admin!\n\n");
-        printf("\t\t-----------------------------------------\n");
-        printf("\t\t\t\tDASHBOARD\n");
-        printf("\t\t-----------------------------------------\n");
 
-        /**********************************************
-        Show All room numbers and Booked room numbers
-        **********************************************/
+        /*Print todays date*/
+        SYSTEMTIME date;
+        GetSystemTime(&date);
+        printf("\t\tDate: %d / %d / %d \n\n", date.wDay, date.wMonth, date.wYear);
 
-        printf("\n\t\tAll Room Numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\n\n");
-        printf("\t\tBooked Room Numbers:");
-
-        /**Open file in reading mode and read room number data from data.dat file**/
-
-        RDfile= fopen("data.dat", "r");
-        while(fread(&e,sizeof(e),1,RDfile)==1)
-        {
-            printf("%d, ", e.roomNumber);
-        };
 
 
         /**Selection Menu**/
@@ -37,7 +25,8 @@ void dashboard()
         printf("\t\tBook a Room------------------1\n\n");
         printf("\t\tVisit Customer Record--------2\n\n");
         printf("\t\tCheck Out--------------------3\n\n");
-        printf("\t\tLog Out----------------------4\n\n\n");
+        printf("\t\tChange Room Price------------4\n\n");
+        printf("\t\tLog Out----------------------5\n\n\n");
         printf("\t\tSelect Number From Menu:\n");
 
         char select = getch();
@@ -56,7 +45,10 @@ void dashboard()
             checkOut();
             break;
         case '4':
-            welcome();
+            changePrice();
+            break;
+        case '5':
+            login();
             break;
         default:
             printf("Invalid Input");

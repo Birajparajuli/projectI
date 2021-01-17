@@ -1,16 +1,52 @@
 /***********************************
         price calculation
 ************************************/
-#include "pricing.h"
-#include "booking.h"
 
-int pricing(int days, int cat)
+#include "pricing.h"
+
+
+#include "changePrice.h"
+
+int pricing(int days, int roomNum)
 {
+
+
+    Pfile = fopen("Pdata.dat", "r");
+    while (fread(&p, sizeof(p),1, Pfile)==1){
+        ecoPrice = p.economyPrice;
+        standPrice = p.standerdPrice;
+        deluxePrice = p.deleuxePrice;
+        exePrice = p.executivePrice;
+    }
+
     printf("\n\n\t\t-----------------------------------------\n");
     printf("\t\tPrice Calculation:\n");
     printf("\t\t-----------------------------------------\n");
 
-    switch(cat){
+
+
+    if(roomNum>100 && roomNum<110){
+        printf("\t\tRoom Type: Economy");
+        finalPrice = days*ecoPrice;
+
+    }else if(roomNum>200 && roomNum<210){
+        printf("\t\tRoom Type: Standard");
+        finalPrice = days*standPrice;
+
+    }else if(roomNum>300 && roomNum<310){
+        printf("\t\tRoom Type: Deluxe");
+        finalPrice = days*deluxePrice;
+
+    }else if(roomNum>400 && roomNum<410){
+        printf("\t\tRoom Type: Executive");
+        finalPrice = days*exePrice;
+    }else{
+        printf("\t\tError!");
+    }
+
+
+    //Previous category price calculation || using switch statement
+    /*switch(cat){
     case 1:
         {
         printf("\t\tRoom Category: Deluxe\n");
@@ -37,5 +73,6 @@ int pricing(int days, int cat)
         printf("\t\tInvalid Input");
         break;
     }
+    */
  return(finalPrice);
 }

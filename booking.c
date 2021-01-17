@@ -3,41 +3,70 @@
 **************************************/
 
 #include"booking.h"
+#include "changePrice.h"
+
+
 
 void booking(){
-    printf("\t\tNEW ROOM BOOKING\n");
+
+    SYSTEMTIME date;
+    GetSystemTime(&date);
+    printf("\t\tToday Date: %d / %d / %d \n", date.wDay, date.wMonth, date.wYear);
+
+    printf("\t\tNew Room Booking:\n");
     printf("\t\t\_________________\n");
+
+
+    /**Get Room Price From Files**/
+
+    RPfile = fopen("Pdata.dat", "r");
+    while (fread(&p, sizeof(p),1, RPfile)==1){
+        ecoPrice = p.economyPrice;
+        standPrice = p.standerdPrice;
+        deluxePrice = p.deleuxePrice;
+        exePrice = p.executivePrice;
+    }
 
     /********************************************
     Show all room numbers and booked room numbers
     *********************************************/
+    printf("\n\t\t|--------------------------------------------------------------------------------------|");
+    printf("\n\t\t| Room Category ||            All room numbers                       ||   Price        |");
+    printf("\n\t\t|--------------------------------------------------------------------------------------|");
+    printf("\n\t\t|Economy Rooms  ||  101 | 102 | 103| 104 | 105| 106 | 107 | 108| 109 || Rs. %.2f    |", ecoPrice);
+    printf("\n\t\t|--------------------------------------------------------------------------------------|");
+    printf("\n\t\t|Standard Rooms ||  201 | 202 | 203| 204 | 205| 206 | 207 | 208| 209 || Rs. %.2f    |", standPrice);
+    printf("\n\t\t|--------------------------------------------------------------------------------------|");
+    printf("\n\t\t|Deluxe Rooms   ||  301 | 302 | 303| 304 | 305| 306 | 307 | 308| 309 || Rs. %.2f    |", deluxePrice);
+    printf("\n\t\t|--------------------------------------------------------------------------------------|");
+    printf("\n\t\t|Executive Rooms||  401 | 402 | 403| 404 | 405| 406 | 407 | 408| 409 || Rs. %.2f    |", exePrice);
+    printf("\n\t\t|______________________________________________________________________________________|\n");
+    printf("\n\t\t|Booked Room Numbers:");
 
-    printf("\n\t\tAll Room Numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\n");
-    printf("\t\tBooked Room Numbers:");
-    RDfile= fopen("data.dat", "r"); /****Open file in reading mode and read room number data from data.dat file******/
+
+
+    /*****************************************************
+               Display already booked rooms
+    ******************************************************/
+
+    RDfile= fopen("data.dat", "r");                      /*Open file in reading mode and read room number data from data.dat file*/
     while(fread(&e,sizeof(e),1,RDfile)==1)
 	{
-	    printf("%d, ", e.roomNumber);
+	    printf("%d | ", e.roomNumber);
 	}
-
-    /***************************
-    Room category and price info
-    ****************************/
-
-    printf("\n\n\t\t------------------------------------------------------------------------------------------------\n");
-    printf("\t\tRoom Category:\n \t\t1.Deleuxe Room: Rs.5000/- \n \t\t2.Premium Room: Rs.3000/- \n \t\t3.Basic Room: Rs.1500/-\n");
-    printf("\t\t------------------------------------------------------------------------------------------------\n\n");
 
     /*****************************************************
     Open file in append mode and save booking data in file
     ******************************************************/
+    printf("\n\n\t\tBook a New Room:\n");
+    printf("\t\t\_________________\n");
 
     Dfile = fopen("data.dat", "a+");
     if(Dfile==NULL){
         printf("\t\tError Saving Data");
 
     }else{
-        printf("\t\tEnter Room Number:");
+        printf("\n\t\tEnter Room Number:");
         scanf("%d", &e.roomNumber);
 
         printf("\t\tEnter First Name:");
@@ -58,8 +87,6 @@ void booking(){
         printf("\t\tTotal Stay Days:");
         scanf("%d", &e.stayPeriod);
 
-        printf("\t\tCatagory of Room(Choose: 1/2/3):");
-        scanf("%d",&e.category);
 
         /*********************
            SAVE DATA TO FILE
@@ -79,6 +106,7 @@ void booking(){
         /********************************************
         ASKING USER IF THEY WANT TO BOOK ANOTHER ROOM
         ********************************************/
+
         char in = getch();
         if (in=='y'||in=='Y'){
             system("cls");
@@ -88,5 +116,8 @@ void booking(){
             dashboard();
         }
     }
+
+    fclose("RDfile");   //Close Files
+    fclose("RPfile");  //Close files
 
 }

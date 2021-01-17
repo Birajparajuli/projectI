@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="booking.h" />
+		<Unit filename="changePrice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="changePrice.h" />
 		<Unit filename="checkOut.c">
 			<Option compilerVar="CC" />
 		</Unit>

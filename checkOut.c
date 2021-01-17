@@ -7,13 +7,24 @@
 #include "pricing.h"
 
 
-float pricing(int days, int cat);
+float pricing(int days, int roomNum);
 //int deleteBooking(int roomnumber);
 
 void checkOut()
 {
     system("cls");
-    printf("\t\tCHECK OUT\n");
+    /*****************************************************
+               Display already booked rooms
+    ******************************************************/
+    printf("\n\t\t|Booked Room Numbers:");
+    RDfile= fopen("data.dat", "r");                      /*Open file in reading mode and read room number data from data.dat file*/
+    while(fread(&e,sizeof(e),1,RDfile)==1)
+	{
+	    printf("%d | ", e.roomNumber);
+	}
+
+
+    printf("\n\n\t\tCHECK OUT\n");
     printf("\t\t\_________________\n\n");
 
     /*******************************
@@ -38,8 +49,8 @@ void checkOut()
 			printf("\n\t\tRoom Number:\t%d",e.roomNumber);
 			printf("\n\t\tName:\t%s %s",e.firstName,e.lastName);
             days= e.stayPeriod;
-            cat= e.category;
-			pricing(days,cat);
+            roomNum = e.roomNumber;
+			pricing(days,roomNum);
 		}
 	}
 

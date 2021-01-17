@@ -120,79 +120,79 @@
 
 1597296382 c:\users\acer\onedrive\desktop\all stuff\hotel management\checkout.h
 
-1607938178 source:c:\users\acer\onedrive\desktop\projecti\booking.c
+1610847999 source:c:\users\acer\onedrive\desktop\projecti\booking.c
 	"booking.h"
+	"changePrice.h"
 
-1607758133 c:\users\acer\onedrive\desktop\projecti\booking.h
+1610277228 c:\users\acer\onedrive\desktop\projecti\booking.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
 	<windows.h>
 
-1607949436 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
+1610848281 source:c:\users\acer\onedrive\desktop\projecti\checkout.c
 	"checkOut.h"
 	"booking.h"
 	"pricing.h"
-	"deleteBooking.h"
 
-1607767900 c:\users\acer\onedrive\desktop\projecti\checkout.h
+1610277372 c:\users\acer\onedrive\desktop\projecti\checkout.h
 
-1607938831 source:c:\users\acer\onedrive\desktop\projecti\dashboard.c
+1610848048 source:c:\users\acer\onedrive\desktop\projecti\dashboard.c
 	"dashboard.h"
 	"booking.h"
 
-1607936232 c:\users\acer\onedrive\desktop\projecti\dashboard.h
+1610272430 c:\users\acer\onedrive\desktop\projecti\dashboard.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
 
-1607947124 source:c:\users\acer\onedrive\desktop\projecti\loadingbar.c
+1610847526 source:c:\users\acer\onedrive\desktop\projecti\loadingbar.c
 	"loadingBar.h"
 
-1607309561 c:\users\acer\onedrive\desktop\projecti\loadingbar.h
+1610272430 c:\users\acer\onedrive\desktop\projecti\loadingbar.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
 	<windows.h>
 
-1607935966 source:c:\users\acer\onedrive\desktop\projecti\login.c
+1610272430 source:c:\users\acer\onedrive\desktop\projecti\login.c
 	"login.h"
 
-1607608548 c:\users\acer\onedrive\desktop\projecti\login.h
+1610272430 c:\users\acer\onedrive\desktop\projecti\login.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
 	<windows.h>
 
-1607754896 source:c:\users\acer\onedrive\desktop\projecti\main.c
+1610847865 source:c:\users\acer\onedrive\desktop\projecti\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
 	<windows.h>
-	<time.h>
 
-1607756667 source:c:\users\acer\onedrive\desktop\projecti\viewbooking.c
+1610717146 source:c:\users\acer\onedrive\desktop\projecti\viewbooking.c
 	"viewBooking.h"
 	"booking.h"
 
-1607609926 c:\users\acer\onedrive\desktop\projecti\viewbooking.h
+1610272430 c:\users\acer\onedrive\desktop\projecti\viewbooking.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
 
-1607935805 source:c:\users\acer\onedrive\desktop\projecti\welcomescreen.c
+1610847958 source:c:\users\acer\onedrive\desktop\projecti\welcomescreen.c
 	"welcomeScreen.h"
 
-1607309561 c:\users\acer\onedrive\desktop\projecti\welcomescreen.h
+1610350526 c:\users\acer\onedrive\desktop\projecti\welcomescreen.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
+	<windows.h>
 
-1607938710 source:c:\users\acer\onedrive\desktop\projecti\pricing.c
+1610719312 source:c:\users\acer\onedrive\desktop\projecti\pricing.c
 	"pricing.h"
-	"booking.h"
+	"changePrice.h"
 
-1607676271 c:\users\acer\onedrive\desktop\projecti\pricing.h
+1610348062 c:\users\acer\onedrive\desktop\projecti\pricing.h
 	<stdio.h>
 	<conio.h>
 	<string.h>
@@ -203,5 +203,13 @@
 	<string.h>
 	<windows.h>
 
-1607949406 source:c:\users\acer\onedrive\desktop\projecti\delete.c
+1610272430 source:c:\users\acer\onedrive\desktop\projecti\delete.c
+
+1610720681 source:c:\users\acer\onedrive\desktop\projecti\changeprice.c
+	"changePrice.h"
+
+1610720229 c:\users\acer\onedrive\desktop\projecti\changeprice.h
+	<stdio.h>
+	<conio.h>
+	<windows.h>
 

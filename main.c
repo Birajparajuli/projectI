@@ -6,11 +6,12 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
-#include <time.h>
+
 
 int main()
 {
-
+    //changePrice();
+    //viewBooking();
     welcome();          /****WELCOME SCREEN***/
     login();            /****LOGIN PAGE***/
     dashboard();        /****DASHBOARD***/
