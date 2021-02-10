@@ -10,7 +10,6 @@
 int pricing(int days, int roomNum)
 {
 
-
     Pfile = fopen("Pdata.dat", "r");
     while (fread(&p, sizeof(p),1, Pfile)==1){
         ecoPrice = p.economyPrice;
